@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 def add(a: float, b: float) -> float:
-    return a - b
+    return a + b
 
 
 @app.get("/health")
